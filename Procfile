@@ -1,1 +1,1 @@
-worker: python CPDB.PY
+worker: python cpdb.py
