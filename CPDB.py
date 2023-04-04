@@ -5,8 +5,6 @@ import requests
 import asyncio
 from dotenv import load_dotenv
 
-print("Current working directory:", os.getcwd())
-
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 COIN_ID = os.getenv('COIN_ID')  # Change this to the coin ID you want to track
